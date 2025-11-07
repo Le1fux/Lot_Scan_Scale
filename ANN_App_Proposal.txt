@@ -1,0 +1,66 @@
+ANN APP PROPOSAL
+================
+
+Title:
+------
+SmartLot ScanScale: An Intelligent Lot Scanning and Weight Detection System Using Artificial Neural Networks
+
+
+1. Introduction
+---------------
+The proposed application, SmartLot ScanScale, integrates image recognition and weight detection using an Artificial Neural Network (ANN). It aims to automate the process of identifying product lot numbers and matching them with their corresponding weights on a digital scale. This reduces manual input errors and increases efficiency in inventory management, logistics, and export operations.
+
+
+2. Problem Statement
+--------------------
+In industrial and warehouse settings, recording product lot numbers and weights is often done manually or with limited automation. This process is prone to human error, delays, and inconsistencies, especially when dealing with large volumes of items. A smart system that can scan, recognize, and record this information automatically would greatly improve accuracy and productivity.
+
+
+3. Objectives
+-------------
+- To design an ANN model capable of identifying lot numbers from scanned images or QR codes.
+- To integrate the ANN model with a digital scale to record and associate item weights automatically.
+- To develop a user-friendly interface for monitoring, logging, and exporting scanned data.
+- To improve data accuracy and speed of inventory tracking operations.
+
+
+4. Scope and Limitations
+------------------------
+Scope:
+- The app will support camera input (for scanning lot labels).
+- It will connect to a digital scale device via serial or Bluetooth communication.
+- It will process and store data locally or on a cloud database.
+
+Limitations:
+- The ANN model will be trained on predefined lot label formats.
+- Environmental lighting or camera quality may affect recognition accuracy.
+
+
+5. Methodology
+--------------
+1. Data Collection: Gather sample images of lot labels and weight readings.
+2. Preprocessing: Clean and normalize the data for ANN training.
+3. Model Design: Build an ANN architecture using TensorFlow or PyTorch.
+4. Training & Validation: Train the model to recognize patterns in lot numbers.
+5. Integration: Connect ANN output to a user interface and scale device.
+6. Testing: Evaluate accuracy, speed, and reliability under real conditions.
+
+
+6. Expected Output
+------------------
+- A functional ANN-based app that can scan lot numbers and automatically log corresponding weights.
+- A database system that records all scanned entries with timestamps.
+- Improved data accuracy and reduced manual work in the logging process.
+
+
+7. Tools and Technologies
+-------------------------
+- Programming Languages: Python, JavaScript
+- Frameworks: TensorFlow / PyTorch, Flask or FastAPI
+- Database: MySQL or Firebase
+- Hardware: Camera, digital weighing scale (Bluetooth or serial)
+
+
+8. Significance of the Study
+----------------------------
+This project demonstrates how artificial neural networks can be used to automate repetitive industrial tasks, bridging the gap between computer vision and IoT systems. It has potential applications in logistics, production quality control, and warehouse automation.
