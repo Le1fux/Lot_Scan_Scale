@@ -1,3 +1,8 @@
+# data_preprocessing.py
+# import cv2
+# import numpy as np
+# import os
+
 def load_images(folder):
     images = []
     labels = []
