@@ -1,0 +1,41 @@
+Lot Scan System
+
+1. Area of Research:
+Computer Science Study / Geospatial Data Processing / Model Simulation
+
+2. Sub-area of the Research:
+Open-Lot Monitoring / Terrain Mapping / Digital Visualization
+
+3. Project Description:
+This project develops a student-friendly application to scan and simulate open lots, capturing terrain, lots, and buildings weekly. Using drones, aerial images, or handheld devices, the system processes images with OpenCV to detect lot boundaries and building footprints.
+The processed data is then displayed in a mobile or desktop application built with Flutter, providing:
+Weekly terrain and building updates.
+2D/3D visualization of lots and buildings.
+Comparison with previous scans to detect changes.
+Lightweight and interactive interface suitable for students.
+Flutter makes the app cross-platform, meaning it can run on Android, iOS, and desktop, while integrating with backend services (Flask/Django) for processing and storage.
+
+4. Algorithms Utilized:
+Image Processing / Photogrammetry:
+Extract terrain and building outlines from images using edge detection and segmentation.
+3D Terrain Modeling:
+Mesh generation for simplified terrain and building representation.
+Change Detection:
+Comparing weekly scans for added, removed, or modified buildings/lots.
+Database Management:
+CRUD operations for scanned lot data, building coordinates, and historical updates.
+
+5. Tools Used:
+Programming Languages: Python (backend), Dart (Flutter frontend)
+Image Processing Libraries: OpenCV, GDAL
+Frontend / 3D Visualization: Flutter (mobile & desktop) with basic 2D/3D visualization plugins
+Drone / GPS Tools: DJI SDK, Pix4D (optional)
+Database: SQLite (local) or PostgreSQL + PostGIS (geospatial support)
+
+6. Framework Applied:
+Backend: Flask or Django (Python) for image processing, storage, and APIs.
+Frontend: Flutter app for mobile/desktop interface and visualization.
+Integration: REST API to connect Flutter frontend with backend services.
+Optional ML Framework: TensorFlow or PyTorch for detecting untagged buildings.
+
+7. Model paper (if available/applicable)
